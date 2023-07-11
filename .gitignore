@@ -22,3 +22,8 @@ go.work
 
 # sprite files
 data/*.png
+data/*.s32
+data/*.spr
+
+# converted files
+output/**/*.png
