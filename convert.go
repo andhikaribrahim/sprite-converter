@@ -20,11 +20,11 @@ func main() {
 		if info.IsDir() {
 			return nil
 		}
-		if filepath.Ext(path) != ".S32" {
+		if filepath.Ext(path) != ".S32" && filepath.Ext(path) != ".spr" {
 			return nil
 		}
 
-		fmt.Printf("name: %s\n", strings.Split(info.Name(), ".")[0])
+		fmt.Printf("converting: %s\n", info.Name())
 		f, err := os.Open(path)
 		if err != nil {
 			log.Fatal(err)
