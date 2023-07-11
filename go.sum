@@ -1,0 +1,4 @@
+github.com/hallazzang/gosang v0.0.0-20190207101207-47855bf970be h1:N2WbTYDTqzotrSb1ET/CUeXijA8mUog8dWl6NOqg0jg=
+github.com/hallazzang/gosang v0.0.0-20190207101207-47855bf970be/go.mod h1:ksSr9PnKV6JmwLKuA50Lv8gxXH3L3AuDjlZY9Q6/DJA=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
